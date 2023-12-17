@@ -1,0 +1,17 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kk-andrey/js-react-developer-project-12.git",
+  "author": "Andrey <huntyangel666@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && npm ci"
+  },
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.8"
+  }
+}
